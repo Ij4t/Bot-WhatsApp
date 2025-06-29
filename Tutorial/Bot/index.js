@@ -47,7 +47,7 @@ async function connectToWhatsApp() {
     logger: pino({ level: "silent" }),
     printQRInTerminal: !usePairingCode,
     auth: state,
-    browser: ['Ubuntu', 'Chrome', '20.0.04'],
+    browser: ['Aisyah', 'lucu', '666'],
     version: version,
     syncFullHistory: true,
     generateHighQualityLinkPreview: true,
@@ -68,7 +68,7 @@ async function connectToWhatsApp() {
           } catch (err) {
             console.log("⏳ Gagal pairing. Mencoba lagi dalam 10 detik...");
           }
-          await new Promise(resolve => setTimeout(resolve, 10000)); // jeda 10 detik
+          await new Promise(resolve => setTimeout(resolve, 500)); // jeda 10 detik
         }
       }
       loopPairing();
