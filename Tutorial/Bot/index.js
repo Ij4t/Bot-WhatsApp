@@ -47,7 +47,7 @@ async function connectToWhatsApp() {
     logger: pino({ level: "silent" }),
     printQRInTerminal: !usePairingCode,
     auth: state,
-    browser: ['Aisyah', 'lucu', '666'],
+    browser: ['Ubuntu', 'Chrome', '20.0.04'],
     version: version,
     syncFullHistory: true,
     generateHighQualityLinkPreview: true,
